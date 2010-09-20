@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  When manipulating views we need a
+      ViewGroup container which in turn demands
+      that we probably should use a FrameLayout as root.
+
+      The visibility of views is set as:
+
+      Visible-visible and takes up space
+      Invisible-not visible but takes up space
+      Gone-not visible and takes up no space
+
+       -->
+<FrameLayout android:id="@+id/ApplicationViewGroupContainer"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+             <!--  MainView after splash screen has visibility set back
+                   to gone -->
+             <RelativeLayout android:id="@+id/MainView"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <ImageView android:id="@+id/Logo"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:src="@drawable/companylogo"
+                                      android:layout_centerHorizontal="true"
+                                      android:layout_centerVertical="true">
+                           </ImageView>
+             </RelativeLayout>
+</FrameLayout>
