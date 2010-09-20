@@ -1,3 +1,18 @@
+/*******************************************************************************
+ * Copyright 2010 fredgrott
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ ******************************************************************************/
 package com.mobilebytes.andparty;
 
 import java.util.ArrayList;
@@ -22,13 +37,10 @@ import android.widget.RelativeLayout;
 
 
 /**
- * MainActivity uses a Handler set-up in onCreate to start the splash animation
- * as than we can use some logic to only trigger the splash when needed based on
- * the value mShowSplash and preferences.
- *
- * In a anti-activity dahsboard pattern this will allow us to than establish and
- * use another handler at the dashboard activity level to handle turning on and
- * off views as a user navigates the dashboard.
+ * The splash screen is created in a different activity and uses a Handler
+ * within the onCreate to trigger an intent launching this activity. I show
+ * a company logo as an ImageView in the main layout so that we can see some
+ * result.
  * @author fredgrott
  *
  */
