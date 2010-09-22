@@ -32,6 +32,12 @@ His LAMP blog can be found at:
 The project is licensed under Apache License 2 and the text can be found at:
 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
+# Video
+
+Now, where would a code demo be without some good video?
+
+[AndParty Video](http://www.youtube.com/watch?v=WKarwZyz31g)
+
 # Usage
 
 Basically download the source to use. Apks for device use can be downloaded
