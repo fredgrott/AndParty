@@ -50,6 +50,7 @@ via http:
 
 # Credits
 
+Borrowed concepts form Coolsplash androidnacademy: http://www.androidacademy.com/3-tutorials/43-hands-on/167-coolsplash-an-interactive-splash-toy-for-android-apps
 
 
 # Feedback
